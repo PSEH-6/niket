@@ -3,11 +3,9 @@ package com.example.SapientTest.controller;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
 
 public class FootballControllerTest {
-	@InjectMocks
-	FootballController footballController;
+	FootballController footballController = new FootballController();
 
 	@Test
 	public void testCountryId() throws Exception {
